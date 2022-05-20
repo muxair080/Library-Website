@@ -1,0 +1,128 @@
+
+/* main heading and logo protion at top of the page . */
+
+.heading{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    /* text-align: center; */
+    justify-content: center;
+    height: 100px;
+    margin: 0px 100px;
+}
+
+.heading img{
+    width: 100px;
+    cursor: pointer;
+}
+.heading .btn{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;   
+    justify-content: center;
+    margin-top: 30px;
+  
+}
+
+.btn button{
+    align-items: space-between;
+    margin: 0px 10px;
+    background-color:lightblue;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    
+    border-bottom: 3px solid blue;
+}
+
+/* navigation bar area */
+
+.navbar{
+    display: grid;
+    position: relative;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    background-color: black;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    padding-left: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+ 
+    font-size: x-large;
+}
+.navbar ul li a:hover{
+  background-color: grey;  
+  border-bottom: 3px solid tomato;
+}
+
+/* search box */
+.navbar .search{
+    margin-top: 15px;
+}
+.navbar .search input{
+    height: 1.5rem;
+    width: 20rem;
+}
+.navbar .search input:hover{
+    border-bottom: 5px solid black;
+}
+
+form{
+    text-align: center;
+}
+.formheading{
+    text-align: center;
+}
+form .inputvalues{
+    padding: 10px;
+    border: none;
+}
+.inputvalues label{
+    font-size: 2rem;
+    font-weight: bolder;
+    position: relative;
+    right: 10px;
+
+}
+form .inputvalues input{
+    margin-left: 30px;
+    width: 500px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 2em;
+
+}
+.addbookbtn button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: 2.5rem;
+    font-size: larger;
+    font-weight: bold;
+} 
+
+/* table */
+table{
+    padding: 20px;
+    width: 80%;
+    margin-left: 140px;
+   margin-top: 20px;
+}
+table, th, td{
+    border:  1px solid black;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    text-align: center;
+}

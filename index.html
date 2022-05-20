@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UETM Library</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>UETM LIBRARY</h1>
+        <img src="/images/uetm-logo.png" alt="Loading...">
+        <div class="btn">
+            <button> sign up</button>
+            <button>sign in</button>
+        </div>
+    </div>
+    <hr>
+    <div class="navbar">
+        <ul class="pages">
+            <li><a href="">Home</a></li>
+            <li><a href="">Book-List</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" , value="search" , name="search" placeholder="Search here">
+        </div>
+    </div>
+    <div id="message"></div>
+    <h1 class="formheading">ADD BOOK</h1>
+    
+    <form id="libraryform">
+
+        <div class="inputvalues">
+            <label for="name">Name : </label>
+            <input type="text" , name="name" , id="name" , placeholder="Name">
+        </div>
+
+        <div class="inputvalues">
+            <label for="Author">Author : </label>
+            <input type="text", id="author" ,name="author" , placeholder="Author Name">
+        </div>
+        <div class="inputvalues">
+            <label for="Edition">Edition : </label>
+            <input , id="edition" , name="edition" type="text">
+        </div>
+        <div class="inputvalues" >
+            <label for="price">Price : </label>
+            <input , id="price" , name="price" type="number">
+        </div>
+        <div class="addbookbtn">
+            <button type="submit">Add Book</button>
+        </div>
+    </form>
+    <table>
+       <thead>
+               <th>Name</th>
+               <th>Author</th>
+               <th>Edition</th>
+               <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+            <tr>
+                <td>IP</td>
+                <td>ABCD</td>
+                <td>1st</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+        
+        
+    </table>
+</body>
+<script src="/JS/index.js"></script>
+
+</html>
